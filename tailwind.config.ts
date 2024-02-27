@@ -12,6 +12,7 @@ const config: Config = {
         center: true,
       },
       backgroundImage: {},
+      colors: {},
     },
   },
   plugins: [],

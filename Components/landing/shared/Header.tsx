@@ -4,7 +4,7 @@ import React from "react";
 
 function Header() {
   return (
-    <header className="py-10">
+    <header className="">
       <div className="container">
         <div className="flex justify-between">
           <div className="flex items-center justify-center">
