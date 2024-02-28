@@ -14,7 +14,13 @@ const config: Config = {
         center: true,
       },
       backgroundImage: {},
-      colors: {},
+      colors: {
+        primary: "#00218F",
+        secondary: "#6A4BFF",
+        light: "#F2F2FF",
+        "light-gray": "#F9F9F9",
+        helper: "#37E2D5",
+      },
       keyframes: {
         blink: {
           "0%": { opacity: "0.2" },

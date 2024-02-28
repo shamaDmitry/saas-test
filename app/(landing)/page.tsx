@@ -1,6 +1,7 @@
 import Banner from "@/Components/landing/pages/HomePage/Banner";
-import Solutions from "@/Components/landing/pages/HomePage/Solutions";
-import { Flex, Text, Button } from "@radix-ui/themes";
+import FinancialTeam from "@/Components/landing/pages/HomePage/FinancialTeam/FinancialTeam";
+import Pricing from "@/Components/landing/pages/HomePage/Pricing/Pricing";
+import SolutionList from "@/Components/landing/pages/HomePage/Solution/SolutionList";
 
 const Page = () => {
   return (
@@ -11,7 +12,11 @@ const Page = () => {
         </div>
       </div>
 
-      <Solutions />
+      <SolutionList />
+
+      <FinancialTeam />
+
+      <Pricing />
     </>
   );
 };
