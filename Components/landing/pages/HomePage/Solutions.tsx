@@ -1,6 +1,4 @@
-import Security from "@/Icons/Security";
 import { Card, Heading, Text } from "@radix-ui/themes";
-import React from "react";
 import { solutionsData } from "./solutionsData";
 import DynamicIcon from "@/Icons/_DynamicIcon";
 import Link from "next/link";
@@ -15,7 +13,7 @@ const Solutions = () => {
         benefit.
       </Text>
 
-      <div className="grid grid-cols-4 gap-4">
+      <div className="grid grid-cols-4 gap-4 mb-4">
         {solutionsData.map((data) => {
           return (
             <Card key={data.id}>
